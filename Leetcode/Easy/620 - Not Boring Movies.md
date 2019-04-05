@@ -2,8 +2,6 @@ X city opened a new cinema, many people would like to go to this cinema. The cin
 
 Please write a SQL query to output movies with an odd numbered ID and a description that is not 'boring'. Order the result by rating.
 
- 
-
 For example, table cinema:
 
 +---------+-----------+--------------+-----------+

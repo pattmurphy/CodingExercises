@@ -1,12 +1,5 @@
 class Solution:
     def majorityElement(self, nums: [int]) -> int:
-        """
-        count = {0: 1, 1: 6, 5: 2, 100: 9}
-        print(count.get(0))
-        print(count.items())
-        print(count.keys())
-        print(count.values())
-        """
         count = {}
         for x in range(len(nums)):
             if nums[x] in count.keys():
