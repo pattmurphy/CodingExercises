@@ -22,3 +22,8 @@ class Solution:
             result = 0
 
         return result * sign
+
+solution = Solution()
+print(solution.reverse(1234))
+print(solution.reverse(4321))
+print(solution.reverse(987654321))
