@@ -1,3 +1,5 @@
+package app;
+
 class Solution {
     public int reverse(int x) {
         StringBuilder y = new StringBuilder(Integer.toString(x));
@@ -17,5 +19,3 @@ class Solution {
         }
     }
 }
-
-

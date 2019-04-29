@@ -1,3 +1,5 @@
+package app;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] ansArray = {0, 0};
@@ -14,5 +16,13 @@ class Solution {
             }
         }
         return ansArray;
+    }
+    public static void main(String[] args) throws Exception {
+
+        Solution s = new Solution();
+
+        int[] nums = {2, 4, 1};
+        int[] ans = s.twoSum(nums, 3);
+        System.out.println(ans[0] + ", " + ans[1]);
     }
 }
