@@ -7,8 +7,6 @@ Initially, the calculator is displaying the number X.
 
 Return the minimum number of operations needed to display the number Y.
 
- 
-
 Example 1:
 
 Input: X = 2, Y = 3
@@ -32,8 +30,6 @@ Example 4:
 Input: X = 1024, Y = 1
 Output: 1023
 Explanation: Use decrement operations 1023 times.
-
- 
 
 Note:
 
