@@ -1,17 +1,10 @@
- #include <iostream>
- #include <vector>
- #include <string>
+#include <iostream>
+#include <string>
+using namespace std;
 
- using namespace std;
+int main(){
+    string msg = "Minuet in G Minor\n";
+    cout << msg;
 
- int main()
- {
-
-     vector<string> msg {"Hello", "C++", "World", "from", "VS Code!", "and the C++ extension!"};
-
-     for (const string& word : msg)
-     {
-         cout << word << " ";
-     }
-     cout << endl;
+    return 0;
  }

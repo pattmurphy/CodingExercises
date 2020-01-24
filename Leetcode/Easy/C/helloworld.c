@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-   printf("Hello, World! \n");
-   
+   printf("Minuet in F# Major\n");
+
    return 0;
 }
