@@ -2,14 +2,20 @@
 
 namespace _121___Best_Time_to_Buy_and_Sell_Stock
 {
-    class Program {
-        public class Solution {
-            public int MaxProfit(int[] prices){
+    class Program
+    {
+        public class Solution
+        {
+            public int MaxProfit(int[] prices)
+            {
                 int maxDifference = 0;
-                for(int i=0; i<prices.Length; i++){
-                    for(int j=i+1; j<prices.Length; j++){
+                for(int i=0; i<prices.Length; i++)
+                {
+                    for(int j=i+1; j<prices.Length; j++)
+                    {
                         int difference = prices[j] - prices[i];
-                        if(difference > maxDifference){
+                        if(difference > maxDifference)
+                        {
                             maxDifference = difference;
                         }
                     }
@@ -17,7 +23,8 @@ namespace _121___Best_Time_to_Buy_and_Sell_Stock
                 return maxDifference;
             }
         }
-        static void Main(string[] args){
+        static void Main(string[] args)
+        {
             Solution solution = new Solution();
             int[] prices1 = {7,1,5,3,6,4};
             Console.WriteLine(solution.MaxProfit(prices1));
