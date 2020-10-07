@@ -1,5 +1,3 @@
-package app;
-
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] ansArray = {0, 0};
