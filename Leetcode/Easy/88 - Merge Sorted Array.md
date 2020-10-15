@@ -12,3 +12,9 @@ nums1 = [1,2,3,0,0,0], m = 3
 nums2 = [2,5,6],       n = 3
 
 Output: [1,2,2,3,5,6]
+
+Constraints:
+
+    -10^9 <= nums1[i], nums2[i] <= 10^9
+    nums1.length == m + n
+    nums2.length == n
