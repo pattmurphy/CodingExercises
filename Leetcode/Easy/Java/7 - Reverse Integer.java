@@ -1,4 +1,4 @@
-class Solution {
+class ReverseInteger {
     public int reverse(int x) {
         StringBuilder y = new StringBuilder(Integer.toString(x));
         if(y.charAt(0) == '-'){
