@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
+ var containsDuplicate = function(nums) {
     nums.sort();
     for(var i = 0; i < nums.length; i++){
         /* for(var j = i+1; j < nums.length; j++){
@@ -16,15 +16,6 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-
-var bigArrSize = 1000000;
-var bigArr = [];
-for(var i = 0; i < bigArrSize; i++){
-    bigArr.push(i);
-    if(i == bigArrSize - 1){
-        bigArr.push(1);
-    }
-}
 
 console.log(containsDuplicate([1,2,1,0,0]));  // true
 console.log(containsDuplicate([1,2,3,4,5]));  // false

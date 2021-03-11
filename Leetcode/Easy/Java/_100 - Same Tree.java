@@ -1,4 +1,4 @@
-// Definition for a binary tree node.
+/* // Definition for a binary tree node.
 class TreeNode {
     int val;
     TreeNode left;
@@ -11,6 +11,7 @@ class TreeNode {
         this.right = right;
     }
 }
+ */
 
 class IsSameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
