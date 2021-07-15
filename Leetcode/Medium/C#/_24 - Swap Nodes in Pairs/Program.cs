@@ -18,6 +18,7 @@ namespace _24___Swap_Nodes_in_Pairs
                     return head;
                 }
                 
+                return head;
             }
         }
         static void Main(string[] args)

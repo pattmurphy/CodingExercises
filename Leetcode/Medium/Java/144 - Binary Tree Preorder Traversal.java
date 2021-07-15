@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
+/* 
 // Definition for a binary tree node.
 class TreeNode {
     int val;
@@ -14,7 +15,7 @@ class TreeNode {
         this.right = right;
     }
 }
-
+ */
 
 class BinaryTreePreorderTraversal {
     ArrayList<Integer> preOrder = new ArrayList<Integer>();
